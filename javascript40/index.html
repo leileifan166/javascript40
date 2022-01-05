@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="myjs.js"></script>
+    <script>
+        window.onload = function(){
+        alert('おはおよ')
+        var btn = document.getElementById('btn');
+        btn.innerHTML = "I am button";
+        btn.onclick = function(){
+            alert('こんにちは');
+        
+        }
+        }
+        
+    </script>
+</head>
+<body>
+    <script>
+        var date = new Date();
+        var date1 = new Date(2012,12,15);
+        var date2 = new Date("2013/3/24 12:30:20");
+        var date3 = new Date("2021/12/31");
+        console.log(date.getDate());//1
+        console.log(date1.getDate());//15
+        console.log(date2.getDate());//24
+        console.log(date.getDay());//6
+        console.log(date3.getDay());//5
+        console.log(date.getFullYear());//2022
+        console.log(date1.getFullYear());//2012
+        console.log(date2.getFullYear());//2013
+        console.log(date3.getFullYear());//2021
+        console.log(date.getYear());
+        console.log(date.getHours());
+        console.log(date.getMinutes());
+        console.log(date.getSeconds());
+        console.log(date.getTime());
+        console.log(date.getFullYear());
+
+        var day = new Date("2021/1/26");
+        console.log(day.getFullYear());
+        console.log(day.getDay());
+        console.log(day.getDate());
+        console.log(day.getMonth());
+
+
+
+
+
+
+
+
+    </script>
+
+    <button id="btn">僕はボタンです</button>
+
+    <script>
+        
+        
+
+    </script>
+    
+</body>
+</html>
